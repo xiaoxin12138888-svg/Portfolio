@@ -1,0 +1,470 @@
+
+body{background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+    background-color: #890909;
+    background-image: url("../img/1.png");
+    background-size: 200px;
+    background-repeat:repeat-x;
+}
+/*头部*/
+.header{width: 1000px;
+        height: 120px;
+        background-color: rgb(180, 61, 61);}
+.logo{ float: left;}
+.header img{
+        display: block;
+        height: 120px;
+        margin-left: 20px;
+
+        }
+
+.search-box {
+        float: left;
+        background: #ffffff9c;
+        height: 30px;
+        width: 400px;
+        border-radius: 30px;
+        padding: 10px;
+        margin: 35px 28px;
+    }
+   .search-btn {
+        color: white;
+        float: right;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #ffc515;
+        display: flex;
+        margin: -5px;
+    }
+    .search-btn i{
+        margin: 4px;
+    }
+    .search-text {
+        border: none;
+        background: none;
+        outline: none;
+        padding: 0;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-family: "Microsoft YaHei UI Light";
+        line-height: 30px;
+        width: 300px;
+    }
+    .head-right{
+        font-size: 20px;
+        color: white;
+        
+        padding: 47px;
+    }
+    .head-right a{
+        text-decoration: none;
+        color: rgb(255, 182, 68);
+        font-weight: 600;
+        margin: 8px;
+    }
+    /*导航*/
+    .nav{
+        position: absolute;
+        width: 1000px;
+        height: 60px;
+        background-color: rgb(133, 42, 42);
+        margin: -16px 0;
+        z-index:999
+    }
+    .menu{
+        width: 1000px;
+        height: 60px;
+        margin: -16px auto;}
+    .menu ul li {
+        width: 200px;
+        list-style: none;
+        height: 60px;
+        float: left;
+        padding: 0px;
+        margin-left:-13px;
+        position: relative;}
+    .menu ul li a{
+        font-family: ‘SimSun’;
+        display: block;
+        text-decoration: none;
+        color: rgb(223, 185, 125);
+        padding: 0 40px;
+        line-height: 60px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .menu ul li:hover {
+        /* 如果此处悬停改为a标签,顶部悬浮效果会消失 */
+        background-color: #dd4343;}
+    .menu ul li div {
+        width: 200px;
+        background-color:  rgb(133, 42, 42);
+        position: absolute;
+        left: 50%;
+        margin-left: -100px;
+        top: 60px;
+        display: none;}
+    .menu ul li div a {
+        height: 40px;
+        line-height: 40px;
+        padding: 0;
+        font-size: 14px;
+    }
+    .menu ul li div a:hover {
+        background-color: #dd4343;
+    }
+    .menu ul li:hover div{
+        display: block;
+    }
+   /*视频*/
+    .videoo{
+        
+        z-index:800;
+        margin-top: 44px;
+        float: left;
+        }
+    /*侧边菜单*/
+    .aside{
+       float: left;
+        top: 10px;
+        width: 230px;
+        background-color: rgb(178, 66, 66);;
+        margin-top:-4px;
+
+        }
+    .aside ul
+    {   margin: 0;
+        padding: 0;
+    }
+    .aside ul li{
+        height: 42px;
+        line-height: 42px;
+        border-bottom: white 2px dashed;
+    }
+    .aside ul li img{margin: 0;}
+    .aside ul li a{
+        display: block;
+        text-indent: 2em;
+        color:rgb(255, 182, 68);
+        font-size: 18px;
+        font-weight: 400;
+         background-size: 10px;
+         text-decoration: none;
+        }
+    .aside ul li a:hover{
+        background-color: #701b1b;
+        color: white;}
+    /*轮播图片*/
+    .artice{
+        float: right;
+        width: 770px;
+        height: 260px;
+        background-color: azure;
+        margin-top: -4px;
+    }
+    .banner-container{
+        width: 770px;
+        height: 260px;
+        /* 隐藏超出展示容器的内容 */
+        overflow: hidden;
+        position: relative;
+    }
+    .banner-container .banner-img-container {
+         margin-top: -5px;
+        width: 770px;
+        height: 260px;
+        overflow: hidden;
+        position: absolute;
+        /* 开启弹性盒，让图片横向排列 */
+        display: flex; 
+    }
+    .banner-container .banner-img-container img{
+        height: 260px;
+    }
+    /*分区内容*/
+    .section{
+        width: 1000px;
+        height: 1475px;
+        background-image: url(../img/bg4.jpg);
+        background-repeat:no-repeat;
+        background-size:1000px;
+    }
+    /*分区第一部分*/
+    .section1{
+        width: 640px;
+        float: left;
+        height: 1110px;
+    }
+    .section1 .section1-1{
+        height: 380px;
+    }
+    
+    .picture1{
+        margin-top: 15px;
+        margin-left: 90px;
+        background-image: url(../img/边框.png);
+        background-size:200px;
+        background-repeat:no-repeat;
+        display: block;
+        width: 200px;
+        height:65px;
+    }
+    h3{
+            color: burlywood;
+            font-family:LiSu;
+            font-size: 30px;
+            margin: 0px;
+            padding-top: 13px;
+            padding-left: 36px;
+        }
+    .section1 .section1-1 .text1{
+        border-bottom: #efc34a 2px solid;
+        color: azure;
+        font-size: 25px;
+        font-family: SimSun;
+        margin: auto;
+        width: 500px;
+        height:250px;
+    }
+    .section1 .section1-1 .text1 span{
+        font-size: 40px;
+        color:burlywood;
+        font-weight:700;
+    }
+    /**/
+    .section1 .section2-1{
+        height: 500px;
+    }
+    .section1 .section2-1 .text2{
+
+        background-color: #ffffff91;
+        width: 655px;
+        height:600px;
+        margin:0 auto;
+        padding: 0px;
+        font-size: 15px;
+        font-weight:500;
+        border-right: #efc34a 2px solid;
+    }
+
+    .section2-1 .text2 ul{
+        list-style-type: none;
+    }
+    .section2-1 .text2 ul li{
+        float: left;
+        width: 184px;
+        margin-right: 20px;
+        margin-bottom: 25px;
+    }
+
+    .section1 .section2-1 .text2 .text2-1-1{
+        margin:33px auto;
+        padding:0px;
+        float: left;
+        position: relative;
+
+    }
+  
+    .section1 .section2-1 .text2 a{
+        text-decoration: none;
+        color: black;
+        font-family:SimSun ;
+    }
+    .section1 .section2-1 .text2 a:hover{
+        color: #efc34a;
+    }
+    .section1 .section2-1 .text2 .text2-1-2{
+        margin:33px auto;
+        padding:0px;
+        float: left;
+    }
+    .section1 .section2-1 .text2 .text2-1-3{
+        margin:33px auto;
+        padding: 0px;
+        float: right;
+    }
+    .section1 .section2-1 .text2 .text2-2-1{
+        float: left;
+        width: 184px;
+        margin-right: 20px;
+    }
+    .section1 .section2-1 .text2 .text2-3-2{
+        float: left;
+        width: 184px;
+        margin-top: -387px;
+        padding: 0px;
+    }
+    .section1 .section2-1 .text2 .text2-3-1{
+        margin:33px auto;
+        padding:0px;
+        float: left;
+    }
+    .section1 .section2-1 .text2 .text2-2-2{
+        margin:33px auto;
+        padding:0px;
+        float: left;
+    }
+    .section1 .section2-1 .text2 .text2-2-3{
+        margin:33px auto;
+        padding:0px;
+        float: left;
+    }
+    /*分区第二部分*/
+    .section2{
+        width:360px;
+        float: right;
+        height: 1110px;
+    }
+    .section2 .section2-11{
+        background-image: url(../img/大边框.png);
+        background-size: 350px ;
+        background-repeat:no-repeat;
+        height: 450px;
+    }
+    .section2 .section2-11 .text-box
+    {    margin-top:34px;
+        margin-left: 32px;
+        padding: 0;
+    }
+    .section2 .section2-11 .text-box a{
+        text-decoration: none;
+        font-size: 15px;
+        color: azure;
+        font-family: SimSun;
+        font-weight: 600;
+    }
+    .section2 .section2-11 .text-box a:hover{
+        color:#efc34a
+    }
+    /**/
+    .section2 .section2-22{
+        height: 600px;
+        border-top:  #efc34a 2px solid;
+    }
+    .section2 .section2-22 .text-box 
+    {
+        margin-top:5px;
+        margin-left:30px;
+        padding: 0;
+    }
+    .section2 .section2-22 .text-box .box{
+        width: 100%;
+        height: 180px;
+    }
+    .section2 .section2-22 .text-box .p1{
+        float: left;
+        width: 47.5%;
+        padding-right: 10px;
+    }
+    .section2 .section2-22 .text-box h2{
+        margin: 0px;
+    }
+    .section2 .section2-22 .text-box a{
+        text-decoration: none;
+        font-size: 15px;
+        color: azure;
+        font-family: SimSun;
+        font-weight: 600;
+    }
+    .section2 .section2-22 .text-box a:hover{
+        color:#efc34a
+    }
+    .section2 .section2-22 .text-box .p3{
+        float: left;
+        width: 47.5%;
+        padding-right: 10px;
+    }
+    .section2 .section2-22 .text-box .p5{
+        float: left;
+        width: 47.5%;
+        padding-right: 10px;
+    }
+    /**/
+    .cn{
+        width: 900px;
+        height: 300px;
+        margin: 0 auto;
+        padding: 0;
+        
+    }
+    .cn p{
+        font-size: 21px;
+        font-family:SimSun;
+        font-weight: 600;
+        color: azure;
+        border-bottom:  #efc34a 2px solid;
+    }
+    /*底部版权*/
+    .bottom{
+        width: 1000px;
+        height: 150px;
+        margin: 0 auto;
+        color: #d9d9d9;
+        background-color:rgb(180, 61, 61);
+        text-align: center;
+    }
+    .bottom .bq{
+        font-family: SimSun;
+        font-size: 16px;
+        line-height: 35px;
+        padding: 0;  
+    }
+    /*侧边悬浮栏*/
+    .sidebar {
+        width: 85px;
+        position: fixed;
+        /* 固定定位，相对于浏览器移动*/
+        right: 20px;
+        bottom: 100px;
+    }
+    .sidebar ul,p{
+                margin: 0;
+				padding: 0;
+				list-style: none;
+    }
+    .sidebar a{text-decoration: none;}
+    .sidebar ul li {
+        border-bottom: 1px solid #ddd;
+        width: 85px;
+        height: 85px;
+        background-color: white;
+        position: relative;
+    }
+    .sidebar ul li:last-child {
+        margin-top: 20px;
+    }
+    .sidebar ul li span {
+        width: 85px;
+        height: 50px;
+        display: block;
+        font-size: 28px;
+        color: #666;
+        text-align: center;
+        line-height: 50px;
+    }
+    .sidebar ul li p {
+        font-size: 14px;
+        text-align: center;
+        color: #666;
+    }
+    
+    .sidebar ul li:hover span,
+    .sidebar ul li:hover p {
+        color: rgb(223, 56, 27)
+    }
+    .sidebar ul li .fu {
+        width: 100px;
+        height: 100px;
+        background: #d2a04a;
+        position: absolute;
+        top: 0;
+        left: -130px;
+        padding: 15px;
+        display: none;
+    }
+    .sidebar ul li:hover .fu {
+        display: block;
+    }

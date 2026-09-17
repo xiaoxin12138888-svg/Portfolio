@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录注册页</title>
+    
+    <style type="text/css">
+      body{
+        background-image:url(img/bg1.jpg);
+        background-size: 100%;
+        margin: auto;}
+    table{padding-top: 10px;}
+    .center{
+        width: 450px;
+        height: 500px;
+        margin: 90px auto;
+    }
+    .td_center{
+        width: 450px;
+        height: 400px;
+        background-color: white;
+        
+    }
+    h1{
+        margin-left:175px;
+        margin-bottom:15px;
+        color: azure;
+    }
+    /* 对中间部分进行描述*/
+    .td_left {
+        width: 100px;
+        height: 45px;
+        text-align: right;
+    }
+    .td_right {
+        padding-left: 50px ;
+    }
+    /* 对信息输入区域的边框进行描述 */
+    #username, #password1, #email, #password2, #tel {
+        width: 251px;
+        height: 32px;
+        border: 1px solid #A6A6A6;
+        padding-left: 10px;
+    }
+    .td_center a{
+        text-decoration: none;
+    }
+    /* 对注册按钮进行描述 */
+    #btn_sub{
+        width: 150px;
+        height: 40px;
+        margin: 13px;
+        color: white;
+        font-size: 19px;
+        font-weight: 600;
+        background-color: #6ea52b;
+        border: 1px solid #6ea52b;
+    }
+    </style>
+    <script type="text/javascript" src="js/注册页面.js"></script>
+    
+</head>
+<body>
+    <div class="center">
+    <h1>注册表</h1>
+    <div class="td_center">
+        
+    <!-- 定义表单 form -->
+     <form action="欢乐中国年.html" method="post"  onSubmit="return checkReg()">
+        <table>
+           
+            <tr>
+                <td class="td_left"><span style="color: red;">*</span><label for="username">用户名</label></td>
+                <td class="td_right"><input type="text" name="username" id="username"></td>
+            </tr>
+            
+            <tr>
+                <td class="td_left"><span style="color: red;">*</span><label for="email">Email</label></td>
+                <td class="td_right"><input type="email" name="email" id="email"></td>
+            </tr>
+
+            <tr>
+                <td class="td_left"><span style="color: red;">*</span><label for="password1">密码</label></td>
+                <td class="td_right"><input type="password" name="password1" id="password1"></td>
+            </tr>
+            <tr>
+                <td class="td_left"><span style="color: red;">*</span><label for="password2">确认密码</label></td>
+                <td class="td_right"><input type="password" name="password2" id="password2" ></td>
+            </tr>
+
+            <tr>
+                <td class="td_left"><label>性别</label></td>
+                <td class="td_right">
+                    <input type="radio" name="gender" value="male"> 男
+                    <input type="radio" name="gender" value="female"> 女
+                </td>
+            </tr>
+
+            <tr>
+                <td class="td_left"><label for="tel">手机号</label></td>
+                <td class="td_right"><input type="text" name="tel" id="tel"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="checkbox" name="read" id="checkbox">我已看过并接受 <a href="">《用户协议》</a></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" id="btn_sub" value="立即注册"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</div>
+</body>

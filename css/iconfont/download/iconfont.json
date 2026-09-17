@@ -1,0 +1,51 @@
+{
+  "id": "4366086",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "398901",
+      "name": "返回顶部",
+      "font_class": "fanhuidingbu",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "7460065",
+      "name": "福来了",
+      "font_class": "fulailiao",
+      "unicode": "e7ae",
+      "unicode_decimal": 59310
+    },
+    {
+      "icon_id": "17605487",
+      "name": "查找",
+      "font_class": "chazhao",
+      "unicode": "e817",
+      "unicode_decimal": 59415
+    },
+    {
+      "icon_id": "19239983",
+      "name": "春节",
+      "font_class": "chunjie2",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "26751653",
+      "name": "直播列表",
+      "font_class": "zhiboliebiao",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "27401797",
+      "name": "个人中心",
+      "font_class": "gerenzhongxin",
+      "unicode": "ed9f",
+      "unicode_decimal": 60831
+    }
+  ]
+}

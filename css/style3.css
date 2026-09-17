@@ -1,0 +1,90 @@
+body{
+    background-image: url(../img/2.png),url(../img/bgCon.jpg);
+    background-repeat: repeat-x,repeat;
+    background-position:48% 25%;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+a{
+    text-decoration: none;
+}
+.header{
+   margin: 0 auto;
+   width: 100%;
+    height:300px;
+    background-image: url(../img/bg22.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.part1{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav1{
+    margin:25px 355px;
+    padding: 25px;
+    background-image: url(../img/边框4.png);
+    background-repeat:no-repeat;
+    display: block;
+}
+.nav2{
+    margin:25px 429px;
+    padding: 25px;
+    background-image: url(../img/边框4.png);
+    background-repeat:no-repeat;
+    display: block;
+}
+h3{
+        color: #ffd298;
+        font-size: 40px;
+        margin:-5px;
+        padding-top:0px;
+        padding-left: 131px;
+    }
+.video1{
+    margin: 40px 114px; 
+    padding: 0px;
+}
+.part2{
+    width:90%;
+    margin: 0 auto;
+    height: 1000px;
+}
+.box{
+        width:100%;
+        margin-top:34px;
+        margin-left: 32px;
+        padding: 0;
+
+}
+.vid{
+    
+    float:left;
+    position:relative;
+    margin-right:30px;
+    width: 280px;
+}
+.vid a{
+    font-size: 17px;
+    line-height: 23px;
+    color: #333333;
+}
+.vid a:hover{
+
+    color: #ee574a;
+}
+.bottom{
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    color: #000000;
+    text-align: center;
+    background-color: brown;
+}
+.bottom .bq{
+    font-family: SimSun;
+    font-size: 16px;
+    line-height: 35px;
+    padding: 0;  
+}
